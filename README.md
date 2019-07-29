@@ -139,10 +139,12 @@ The remainder of this document contains a tutorial on creating a React app (usin
     * I recommend exploring the GitHub repository once again at this point. When I did that, I noticed that a `master` branch now existed, and it contained the app's source code.
     * So, the `master` branch held the source code, and the `gh-pages` branch held the *built* app code.
 
-**Optionally, change  remote git to the another git .**
+    **Optionally, change  remote git to the another git .**
+
     ```
     git remote set-url origin new.git.url/here
     ```
+    
 # References
 
 1. [Facebook's tutorial on deploying a React app to GitHub Pages](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
